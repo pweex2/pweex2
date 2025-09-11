@@ -6,7 +6,7 @@ Backend engineer passionate about scalable systems, infrastructure automation, a
 
 ## 🧠 Core Skills
 
-- **Languages**: Golang, Java (Spring Boot), Shell
+- **Languages**: Golang (primary), Java
 - **Databases**: MySQL, Redis
 - **Infrastructure**: Docker, GitHub Actions, etcd, RabbitMQ
 - **Architecture**: Modular design, event-driven, distributed systems
