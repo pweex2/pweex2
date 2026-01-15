@@ -1,38 +1,55 @@
 # 👋 Hi, I’m Wayne
 
-Backend engineer passionate about scalable systems, infrastructure automation, and solving real-world problems with clean architecture and Golang.
+**Backend Engineer** specializing in **Distributed Systems**, **High-Availability Architecture**, and **Infrastructure Automation**.
+I build robust systems that solve complex problems with clean, modular code in **Golang**.
 
 ---
 
 ## 🧠 Core Skills
 
 - **Languages**: Golang (primary), Java
-- **Databases**: MySQL, Redis
+- **Databases**: Microservices, Event-Driven Architecture, REST
 - **Infrastructure**: Docker, GitHub Actions, etcd, RabbitMQ
 - **Architecture**: Modular design, event-driven, distributed systems
 
 ---
 
-## 🚀 Featured Projects
+## 🛠 Tech Stack
 
-### Coordination – CDN Node Scheduling Platform
-[Check/Download Coordination Diagram](./coordination.drawio)
-
-> Automates DNS resolution adjustments with real-time monitoring and policy filters. Handles thousands of nodes with dynamic recovery and modular task execution.
-
-- Policy-driven actions (`monitor_policy`, `election_policy`, `action_policy`)
-- Dynamic DNS recovery
-- Modular task execution interface
+| Category | Technologies |
+|----------|--------------|
+| **Languages** | **Golang** (Primary), Java |
+| **Backend** | Microservices, Event-Driven Architecture, RPC, REST |
+| **Data** | MySQL, Redis, ClickHouse, Elasticsearch, etcd |
+| **Infra & Ops** | Docker, GitHub Actions, RabbitMQ, Systemd, Linux |
 
 ---
 
-### Solar-portal
-> Embedded data collector for solar station monitoring, optimized for Raspberry Pi deployment.
+## 🚀 Featured Projects
 
-- Collects real-time data via `modbus` and pushes to `solar-stream`
-- Interfaces with ClickHouse + Elasticsearch
-- Generates alerts, config profiles, and KPIs via REST API
-- Lightweight auto-installer with systemd
+### 🌐 GP Coordination – Intelligent Traffic Scheduling Control Plane
+> *Based on the [Auto-Scheduling System 4.0](https://github.com/ryzh3n/cdn-scheduling-system) philosophy.*
+
+A high-performance **Control Plane** designed to act as the "brain" of a CDN. It ensures service availability and optimal routing through an automated **Observation → Analysis → Execution** loop.
+
+*   **Smart Scheduling**: Implements Geo-Routing, Latency-Based Selection, and Weighted Load Balancing.
+*   **Automated Failover**: Real-time detection of node failures with instant DNS-based traffic rerouting.
+*   **Hybrid Control**: Supports fully automated rule-based decisions + granular manual dispatch (`g->y->IP`).
+*   **Tech**: `Asynq` (Scheduling), `Rule Engine` (Logic), `Redis` (State), `etcd` (Config).
+
+[👉 Check Architecture Diagram](./coordination.drawio)
+
+---
+
+### ☀️ Solar-portal – IoT Edge Gateway
+> *Embedded data collector for solar energy monitoring, optimized for edge devices (Raspberry Pi).*
+
+An efficient edge gateway that bridges industrial protocols with modern big data pipelines.
+
+*   **Edge Computing**: Collects real-time data via `Modbus` (RTU/TCP) and processes it locally.
+*   **Data Pipeline**: Pushes normalized data to `Solar-Stream` -> ClickHouse / Elasticsearch.
+*   **Reliability**: Lightweight auto-installer with systemd integration and watchdog mechanisms.
+*   **Tech**: Golang, Modbus, REST API.
 
 ---
 
