@@ -37,6 +37,9 @@ A high-performance **Control Plane** designed to act as the "brain" of a CDN. It
 *   **Hybrid Control**: Supports fully automated rule-based decisions + granular manual dispatch (`g->y->IP`).
 *   **Tech**: `Asynq` (Scheduling), `Rule Engine` (Logic), `Redis` (State), `etcd` (Config).
 
+
+[👉 Check Details](./coordination-details.md)
+
 [👉 Check Architecture Diagram](./coordination.drawio)
 
 ---
