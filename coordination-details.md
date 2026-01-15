@@ -76,4 +76,4 @@ The system respects "Service Areas". A user in **Southeast Asia** will only be r
 | **Queue** | **Asynq** | Reliable distributed task scheduling. |
 | **Storage** | **Redis** | Real-time state and cache. |
 | **Config** | **etcd** | Dynamic configuration management. |
-| **API** | **REST / gRPC** | Internal communication and external control. |
+| **API** | **RESTful (Gin)** | Internal communication and external control. |
