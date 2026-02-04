@@ -1,7 +1,8 @@
 # 👋 Hi, I’m Wayne
 
-**Backend Engineer** specializing in **Distributed Systems**, **High-Availability Architecture**, and **Infrastructure Automation**.
-I build robust systems that solve complex problems with clean, modular code in **Golang**.
+> **Golang Backend Engineer | Distributed Platforms for Network Automation & Traffic Control | Singapore PR**
+
+I specialize in building scalable **Control Planes** and **Execution Engines** that turn complex network strategies into reliable, automated systems.
 
 ---
 
