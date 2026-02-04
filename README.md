@@ -2,7 +2,11 @@
 
 > **Golang Backend Engineer | Distributed Platforms for Network Automation & Traffic Control | Singapore PR**
 
-I specialize in building scalable **Control Planes** and **Execution Engines** that turn complex network strategies into reliable, automated systems.
+Golang Backend Engineer focused on building reliable, scalable distributed platforms for network automation and traffic control, with hands-on experience in CDN and large-scale control systems.
+
+I specialize in backend and platform engineering, architecting **Control Planes** and **Execution Engines** that turn complex routing and policy logic into automated, high-performance systems operating at scale.
+
+Experienced in running production systems with **Redis, ClickHouse, Prometheus, Elasticsearch, and etcd**, with a strong emphasis on reliability, observability, and operational correctness.
 
 ---
 
