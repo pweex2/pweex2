@@ -49,6 +49,18 @@ A high-performance **Control Plane** designed to act as the "brain" of a CDN. It
 
 ---
 
+### 🛒 [Distributed E-commerce Microservices System](https://github.com/pweex2/vv-ecommerce)
+> *A scalable microservices backend focusing on data consistency and observability.*
+
+Designed and developed a robust backend (Order, Inventory, Payment, Gateway) tackling distributed system challenges.
+
+*   **Distributed Transactions**: Engineered reliable consistency using **Transactional Outbox** and **Saga Patterns**, solving "Dual-Write" issues between MySQL and RabbitMQ.
+*   **Full-Stack Observability**: Integrated **OpenTelemetry** and **Jaeger** for end-to-end distributed tracing, enabling rapid latency diagnosis.
+*   **High-Concurrency**: Implemented idempotent consumers and exponential backoff retries. Optimized Outbox Processor with `SKIP LOCKED` for horizontal scaling.
+*   **Tech**: Golang, RabbitMQ, Docker, MySQL, OpenTelemetry.
+
+---
+
 ### ☀️ Solar-portal – IoT Edge Gateway
 > *Embedded data collector for solar energy monitoring, optimized for edge devices (Raspberry Pi).*
 
