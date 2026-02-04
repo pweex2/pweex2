@@ -10,23 +10,15 @@ Experienced in running production systems with **Redis, ClickHouse, Prometheus, 
 
 ---
 
-## 🧠 Core Skills
-
-- **Languages**: Golang (primary), Java
-- **Databases**: Microservices, Event-Driven Architecture, REST
-- **Infrastructure**: Docker, GitHub Actions, etcd, RabbitMQ
-- **Architecture**: Modular design, event-driven, distributed systems
-
----
-
 ## 🛠 Tech Stack
 
 | Category | Technologies |
 |----------|--------------|
-| **Languages** | **Golang** (Primary), Java |
-| **Backend** | Microservices, Event-Driven Architecture, RPC, REST |
-| **Data** | MySQL, Redis, ClickHouse, Elasticsearch, etcd |
-| **Infra & Ops** | Docker, GitHub Actions, RabbitMQ, Systemd, Linux |
+| **Languages** | **Golang** (Core), Java, Shell Scripting |
+| **Architecture** | Microservices, Event-Driven Architecture (EDA), **Distributed Transactions** (Saga, Outbox Pattern) |
+| **API & Protocols** | **RESTful API Design**, RPC, HTTP/HTTPS |
+| **Cloud Native & DevOps** |  **Docker**, **GitHub Actions** (CI/CD), **OpenTelemetry** (Distributed Tracing), Jaeger |
+| **Middleware & Storage**| **etcd** (Service Discovery, Configuration), Redis, RabbitMQ, MySQL , ClickHouse, Elasticsearch |
 
 ---
 
